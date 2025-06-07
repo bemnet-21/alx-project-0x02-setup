@@ -11,7 +11,7 @@ const HomePage: React.FC = () => {
   { title: "Coffee Maker Deluxe", content: "Programmable, Brews 12 Cups" }
   ]
   return (
-      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10'>
+      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 bg-gradient-to-br from-blue-200 via-[#51A2FF] to-indigo-600 min-h-screen'>
         {
           cardData.map((item, index) => (
             <Card key={index} title={item.title} content={item.content} />
