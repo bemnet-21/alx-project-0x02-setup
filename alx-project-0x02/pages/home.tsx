@@ -18,15 +18,6 @@ const HomePage: React.FC = () => {
           ))}
         
         </div>
-
-
-      //   {/* <Card title="Laptop" content='Brand New' />
-      //   <Card title="Laptop" content='Brand New' />
-      //   <Card title="Laptop" content='Brand New' />
-      //   <Card title="Laptop" content='Brand New' />
-      //   <Card title="Laptop" content='Brand New' />
-      //   <Card title="Laptop" content='Brand New' /> */}
-      // // </div>
   );
 };
 
