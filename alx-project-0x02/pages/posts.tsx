@@ -1,8 +1,12 @@
+import Header from '@/components/layout/Header'
 import React from 'react'
 
 const posts: React.FC = () => {
   return (
-    <div>posts</div>
+    <div>
+        <Header />
+        posts
+    </div>
   )
 }
 
