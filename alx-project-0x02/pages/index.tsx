@@ -10,7 +10,6 @@ const index: React.FC = () => {
             Welcome to ALX
         </div>
       </div>
-      <PostModal title='Laptop' content='new' />
     </>
   )
 }
