@@ -11,3 +11,8 @@ export interface PostModalProps {
     onClose: () => void
     onSubmit: (post: PostData) => void
 }
+export interface ButtonProps {
+    size: 'small' | 'medium' | 'large'
+    shape: 'rounded-sm' | 'rounded-md' | 'rounded-full'
+    content: string
+}
