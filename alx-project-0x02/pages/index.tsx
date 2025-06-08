@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/layout/Header'
+import PostModal from '@/components/common/PostModal'
 const index: React.FC = () => {
   return (
     <>
@@ -9,6 +10,7 @@ const index: React.FC = () => {
             Welcome to ALX
         </div>
       </div>
+      <PostModal title='Laptop' content='new' />
     </>
   )
 }
